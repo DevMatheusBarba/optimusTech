@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('style/header.css');
+@import url('style/sobrenos.css');
+@import url('style/metrica.css');
+@import url('style/talento.css');
+@import url('style/vagas.css');
+@import url('style/depoimento.css');
+@import url('style/rodape.css');
+
+
+:root{
+        --fonte-principal: 'Inter', sans-serif;
+        --cinza: #667085;
+        --branco: #fff;
+        --vinho: #8E2424;
+        --preto: #101828;
+        --fundo-subtitulo: rgba(142, 36, 36, 0.05);
+        --fundo-secao: rgba(196, 25, 25, 0.03);
+        --fundo-depoimento: rgba(196, 25, 25, 0.03);
+        
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+  }
+
+  body{
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+   
+    margin: 0 auto;
+    color: (var(--preto));
+  }

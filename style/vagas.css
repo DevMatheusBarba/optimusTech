@@ -1,0 +1,47 @@
+.container__vagas{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    margin-bottom: 7em;
+}
+
+.lista__vaga{
+    padding: 1em;
+    max-width: 60%;
+    margin-left: 10em;
+
+}
+
+.lista__item{
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    margin: 0 0 1.5em 2em;
+    padding: 1em;
+    list-style-type: none;
+}
+
+.lista__item:hover{
+    background-color: var(--fundo-secao);
+}
+
+.lista__item-cargo{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+}
+
+.lista__item-texto{
+    padding:  1em;
+}
+
+
+.lista__vaga-area{
+    padding-bottom: 2em;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.lista__item-descricao{
+    margin-top: 1.5em;
+    color: var(--cinza);
+}
